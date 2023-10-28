@@ -12,6 +12,7 @@ export default function BrowsedBook({ Books , handleDeleteBook, isLoggedIn, user
           <li key={index}>
             {/* <strong>{book._id} </strong>  */}
             <strong>{book.title}
+          
             <br/></strong> by {book.author} 
             {/* <strong> {book.reservedBy}</strong> */}
             <br/>
